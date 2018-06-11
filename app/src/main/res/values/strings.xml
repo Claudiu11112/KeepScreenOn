@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KeepScreenOn</string>
+    <string name="screen_on1">Keep screen on 60 min.</string>
+    <string name="screen_on2">Keep screen on 30 min.</string>
+    <string name="min_30">30</string>
+    <string name="screen_on_15">Keep screen on 15 min.</string>
+    <string name="btn2">15</string>
+    <string name="infinite_1">Infinite</string>
+    <string name="infinite_btn1">Infinite</string>
+    <string name="screen_on5h">Keep screen on 5 h.</string>
+    <string name="hour_5">5 h.</string>
+    <string name="t60minute">60</string>
+    <string name="keepscreen2h">Keep screen on 2 h.</string>
+    <string name="hour2h">2 H.</string>
+    <string name="defaulttest">Default</string>
+    <string name="defaultTest123">Default</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+</resources>
