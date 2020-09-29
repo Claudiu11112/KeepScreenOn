@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KeepScreenOnV2.iml" filepath="$PROJECT_DIR$/KeepScreenOnV2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KeepScreenOn.iml" filepath="$PROJECT_DIR$/.idea/modules/KeepScreenOn.iml" group="KeepScreenOn" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="KeepScreenOn/app" />
     </modules>
   </component>
 </project>
