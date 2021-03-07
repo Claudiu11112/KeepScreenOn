@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         MINUTE = 1000 * 60 * 60;
         delayM();
         Toast.makeText(MainActivity.this, "Keep screen on 60 min. Thread Id: " + i,
-                Toast.LENGTH_LONG).show();
+                Toast.LENGTH_SHORT).show();
     }
 
     private void createT() {
