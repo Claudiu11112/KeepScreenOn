@@ -39,12 +39,7 @@ public class MainActivity extends AppCompatActivity {
         ht.start();
         h = new Handler(ht.getLooper());
 
-        r = new Runnable() {
-            @Override
-            public void run() {
-                getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-            }
-        };
+        r = () -> getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
     }
 
     private void delayM() {
