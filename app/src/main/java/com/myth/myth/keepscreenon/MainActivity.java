@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         MINUTE = 1000 * 60 * 30;
         delayM();
         Toast.makeText(MainActivity.this, "Keep screen on 30 min. Thread Id: " + i,
-                Toast.LENGTH_LONG).show();
+                Toast.LENGTH_SHORT).show();
     }
 
     public void min15(View v) {
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         MINUTE = 1000 * 60 * 15;
         delayM();
         Toast.makeText(MainActivity.this, "Keep screen on 15 min. Thread Id: " + i,
-                Toast.LENGTH_LONG).show();
+                Toast.LENGTH_SHORT).show();
     }
 
     public void infinite(View view) {
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         MINUTE = 1000 * 60 * 60 * 5;
         delayM();
         Toast.makeText(MainActivity.this, "Keep screen on 5 h. Thread Id: " + i,
-                Toast.LENGTH_LONG).show();
+                Toast.LENGTH_SHORT).show();
     }
 
     public void min60(View view) {
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         MINUTE = 1000 * 60 * 60;
         delayM();
         Toast.makeText(MainActivity.this, "Keep screen on 1 h. Thread Id: " + i,
-                Toast.LENGTH_LONG).show();
+                Toast.LENGTH_SHORT).show();
     }
 
     public void btn2h(View view) {
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         MINUTE = 1000 * 60 * 60 * 2;
         delayM();
         Toast.makeText(MainActivity.this, "Keep screen on 2 h. Thread Id: " + i,
-                Toast.LENGTH_LONG).show();
+                Toast.LENGTH_SHORT).show();
     }
 
     @Override
